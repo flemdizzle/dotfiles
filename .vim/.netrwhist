@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/stevenfleming/Documents/Programming/word_games'
+let g:netrw_dirhist_2='/Users/stevenfleming/Documents/Programming/MekkoChart'
+let g:netrw_dirhist_3='/Users/stevenfleming/Documents/Programming/shopping_cart'
+let g:netrw_dirhist_4='/Users/stevenfleming/Documents/Programming/d3Server'
+let g:netrw_dirhist_5='/Users/stevenfleming/Documents/Programming/FTADataVis'
+let g:netrw_dirhist_6='/Users/stevenfleming/Documents/Programming/MekkoChart'
+let g:netrw_dirhist_7='/Users/stevenfleming/.wdi/installfest'
+let g:netrw_dirhist_8='/Users/stevenfleming/.dotfiles/others/paulirish_dotfiles'
