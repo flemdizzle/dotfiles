@@ -5,6 +5,19 @@ for file in ~/.{extra,bash_prompt,exports,aliases,functions}; do
 done
 unset file
 
+# -----------------------------------------------------------------------------
+# Path
+# A list of all directories in which to look for commands, scripts and programs
+# -----------------------------------------------------------------------------
+
+PATH="$HOME/.rbenv/bin:$PATH"                              # RBENV                         
+PATH="/usr/local/share/npm/bin:$PATH"                      # NPM
+PATH="/usr/local/bin:/usr/local/sbin:$PATH"                # Homebrew
+PATH="/usr/local/heroku/bin:$PATH"                        # Heroku Toolbelt
+PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"      # Coreutils
+MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH" # Manual pages
+
+
 # =================
 # Sourced Scripts
 # =================
