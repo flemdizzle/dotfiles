@@ -12,20 +12,16 @@ bash < <( curl https://raw.github.com/jamiew/git-friendly/master/install.sh)
 # rvm for the rubiess
 curl -L https://get.rvm.io | bash -s stable --ruby
 
-# https://github.com/isaacs/nave
-# needs npm, obviously.
-# TODO: I think i'd rather curl down the nave.sh, symlink it into /bin and use that for initial node install.
-npm install -g nave
-
-
-# homebrew!
-# (google machines are funny so i have to do this. everyone else should use the regular thang)
-mkdir $HOME/.homebrew && curl -L https://github.com/mxcl/homebrew/tarball/master | tar xz --strip 1 -C $HOME/.homebrew
-export PATH=$HOME/.homebrew/bin:$HOME/.homebrew/sbin:$PATH
+# mkdir $HOME/.homebrew && curl -L https://github.com/mxcl/homebrew/tarball/master | tar xz --strip 1 -C $HOME/.homebrew
+# export PATH=$HOME/.homebrew/bin:$HOME/.homebrew/sbin:$PATH
 # install all the things
 ./brew.sh
 ./brew-cask.sh
 
+# https://github.com/isaacs/nave
+# needs npm, obviously.
+# TODO: I think i'd rather curl down the nave.sh, symlink it into /bin and use that for initial node install.
+npm install -g nave
 
 # https://github.com/rupa/z
 # z, oh how i love you
