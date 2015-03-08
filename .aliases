@@ -68,7 +68,7 @@ alias mkdir='mkdir -pv'
 
 # miscellaneous
 alias rogue='lsof -i TCP:3000 -i TCP:4567 -i TCP:8000 -i TCP:8888 -i TCP:6379'
-alias dev='cd ~/dev'
+alias dev='cd ~/dev/'
 alias tmp='cd ~/dev/tmp/'
 alias tst='cd ~/dev/tmp/test/; vim .'
 alias tree='tree -C'

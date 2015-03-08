@@ -3,6 +3,11 @@
 
 # read migration.md where more migrationy tips are.
 
+# make some directories
+mkdir $HOME/dev/tmp/test $HOME/code
+
+# install xcode cli tools
+xcode-select --install
 
 # https://github.com/jamiew/git-friendly
 # the `push` command which copies the github compare URL to my clipboard is heaven
