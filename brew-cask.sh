@@ -9,7 +9,9 @@ brew cask install dropbox
 brew cask install flux
 brew cask install caffeine
 brew cask install spectacle
+allow_control Spectacle
 brew cask install evernote
+
 
 # dev
 brew cask install iterm2

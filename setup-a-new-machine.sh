@@ -19,6 +19,8 @@ curl -L https://get.rvm.io | bash -s stable --ruby
 # install all the things
 ./brew.sh
 ./brew-cask.sh
+./gems.sh
+./npm.sh
 
 # https://github.com/isaacs/nave
 # needs npm, obviously.

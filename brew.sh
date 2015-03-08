@@ -16,7 +16,7 @@ brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`
 brew install gnu-sed --default-names
 
-
+brew install postgres
 # Install Bash 4
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
 brew install bash
@@ -50,5 +50,6 @@ brew install zopfli
 brew install ffmpeg --with-libvpx
 brew install android-platform-tools
 
+brew install heroku toolbelt
 # Remove outdated versions from the cellar
 brew cleanup
