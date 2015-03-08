@@ -20,7 +20,9 @@ brew cask install mou
 brew cask install limechat
 
 # browsers
+brew cask install google-chrome
 brew cask install google-chrome-canary
+brew cask install firefox
 brew cask install firefox-nightly --force
 brew cask install webkit-nightly --force
 brew cask install chromium --force
