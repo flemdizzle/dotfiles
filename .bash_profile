@@ -5,6 +5,20 @@ for file in ~/.{extra,bash_prompt,exports,aliases,functions}; do
 done
 unset file
 
+# =================
+# Sourced Scripts
+# =================
+
+# A welcome prompt with stats for sanity checks
+if [ -f ~/.welcome_prompt.sh ]; then
+  source ~/.welcome_prompt.sh
+fi                                                                                         
+
+# bash/zsh completion support for core Git.
+if [ -f ~/.git-completion.bash ]; then
+  source ~/.git-completion.bash
+fi
+
 # init z   https://github.com/rupa/z
 . ~/code/z/z.sh
 
