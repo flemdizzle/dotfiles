@@ -21,7 +21,6 @@ welcome_msg() {
   echo $(rails -v)
   echo $(heroku --version)
   echo "------------------------------------------"
-  echo "type ${BOLD}unwelcome${RESET} to remove this message"
 }
 
 if [[ $WELCOME_PROMPT == true ]]; then welcome_msg; fi
