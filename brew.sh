@@ -6,6 +6,11 @@ brew update
 # Upgrade any already-installed formulae
 brew upgrade
 
+brew tap homebrew/versions
+
+brew install homebrew/versions/bash-completion2
+
+
 # Install GNU core utilities (those that come with OS X are outdated)
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
@@ -22,10 +27,8 @@ brew install postgres
 brew install bash
 # regular bash-completion package is held back to an older release, so we get latest from versions.
 #   github.com/Homebrew/homebrew/blob/master/Library/Formula/bash-completion.rb#L3-L4
-brew tap homebrew/versions
-brew install homebrew/versions/bash-completion2
-
 # generic colouriser  http://kassiopeia.juls.savba.sk/~garabik/software/grc/
+
 brew install grc
 
 # Install wget with IRI support
@@ -51,5 +54,13 @@ brew install ffmpeg --with-libvpx
 brew install android-platform-tools
 
 brew install heroku toolbelt
+
+#Optoro brew installations
+brew install mysql
+brew install mongodb
+brew install memcached
+brew install redis
+brew install influxdb
+
 # Remove outdated versions from the cellar
 brew cleanup
