@@ -15,3 +15,11 @@ defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-
 # Terminal Settings                                                           #
 ###############################################################################
 
+###############################################################################
+# Finder                                                                      #
+###############################################################################
+
+# Finder: show hidden files by default
+defaults write com.apple.finder AppleShowAllFiles YES
+
+
