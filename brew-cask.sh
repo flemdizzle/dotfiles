@@ -17,6 +17,7 @@ brew cask install evernote
 brew cask install iterm2
 brew cask install sublime-text
 brew cask install mou
+brew cask install slack
 
 # fun
 brew cask install limechat
