@@ -50,6 +50,8 @@ Plugin 'tpope/vim-surround'              " quoting/parenthesizing made simple
 Plugin 'tpope/vim-unimpaired'            " pairs of handy bracket mappings
 Plugin 'vim-ruby/vim-ruby'               " Ruby Configuration Files
 Plugin 'snipMate'                        " Should add snippets for stuff
+Plugin 'grep.vim'                        " Searching multiple files in vim
+
 " Themes
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'ChrisKempson/Vim-Tomorrow-Theme'
@@ -191,7 +193,6 @@ endif
 " ---------------------------------------------------------------------------
 
 noremap <leader>n :NERDTreeToggle<cr>               " open nerdtree with leader + n
-map <C-n> :NERDTreeToggle<CR>
 
 let NERDTreeHighlightCursorline=1
 let NERDTreeIgnore = ['tmp', '.yardoc', 'pkg']

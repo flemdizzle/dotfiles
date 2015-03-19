@@ -10,7 +10,6 @@ unset file
 # A list of all directories in which to look for commands, scripts and programs
 # -----------------------------------------------------------------------------
 
-PATH="$HOME/.rbenv/bin:$PATH"                              # RBENV                         
 PATH="/usr/local/share/npm/bin:$PATH"                      # NPM
 PATH="/usr/local/bin:/usr/local/sbin:$PATH"                # Homebrew
 PATH="/usr/local/heroku/bin:$PATH"                        # Heroku Toolbelt

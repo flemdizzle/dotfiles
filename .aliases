@@ -15,6 +15,7 @@ alias cask='brew cask'
 
 # sometimes i forget
 alias where=which
+alias rail=rails
 
 #typos
 alias brwe=brew
@@ -73,3 +74,4 @@ alias tmp='cd ~/dev/tmp/'
 alias tst='cd ~/dev/tmp/test/; vim .'
 alias tree='tree -C'
 alias chrome='open -a "Google Chrome"'
+alias be='bundle exec'
